@@ -7,3 +7,5 @@ Por el momento el proyecto solamente contiene su estructura inicial.
 - Consultar tareas.
 - Modificar tareas.
 - Marcar tareas como terminadas.
+## Control de versiones
+Este proyecto utiliza Git para el control de versiones y GitHub como repositorio remoto.
