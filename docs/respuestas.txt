@@ -1,0 +1,42 @@
+1. ¿Cuál es la diferencia entre Git y GitHub?
+Respuesta: Git es un sistema de control de versiones que se instala localmente en tu computadora,
+para rastrear el historial de cambios en tu código, 
+crear ramas y trabajar sin necesidad de internet. 
+Por otro lado, GitHub es una plataforma en la nube que aloja proyectos gestionados con Git,
+facilitando el respaldo en línea, 
+la colaboración en equipo y la revisión de código a través de una interfaz web.
+En resumen: Git es la herramienta que gestiona las versiones en tu equipo local,
+GitHub es el servicio web donde subes y compartes ese trabajo.
+
+2. ¿Qué función cumple el área de stage?
+Respuesta: El **área de stage** es una zona de preparación intermedia en Git donde seleccionas y 
+organizas exactamente qué cambios de tus archivos deseas incluir en tu próximo `commit`. 
+Su función principal es permitirte agrupar modificaciones de forma ordenada y selectiva antes de guardarlas
+ permanentemente en el historial del repositorio.
+
+3. ¿Para qué sirve un commit?
+Respuesta: Un commit es una captura o "fotografía" del estado de tu proyecto en un momento determinado. 
+Sirve para guardar permanentemente en el historial de Git los cambios que tenías preparados en el stage, 
+asignándoles un identificador único y un mensaje descriptivo para que puedas revisar, 
+rastrear o volver a ese punto en el futuro.
+
+4. ¿Cuál es la función del archivo .gitignore?
+Respuesta: Selecionas los archivos que no quieres que se muestren en el github
+
+5. ¿Por qué no debe almacenarse normalmente el entorno virtual .venv en GitHub? El entorno virtual .venv no se sube a GitHub 
+porque contiene binarios y rutas absolutas que solo funcionan en tu computadora local, pesa demasiado y puede exponer claves 
+de seguridad; en su lugar, se ignora en el .gitignore y solo se sube el archivo requirements.txt.
+
+Universidad de León Ing. Alejandro Montes
+
+Respuesta: Armando Emiliano Torres Lara 
+
+6. ¿Qué relación existe entre el repositorio local y el repositorio remoto?
+Respuesta: El repositorio local es la copia completa del proyecto almacenada en tu propia computadora, 
+donde realizas cambios y pruebas de forma privada, mientras que el repositorio remoto es la versión alojada en un servidor 
+externo (como GitHub) que sirve como punto central para respaldar el código, sincronizar avances y colaborar con otras personas.
+
+7. ¿Qué diferencia existe entre ejecutar commit y ejecutar push?
+Respuesta: git commit guarda los cambios de forma local en tu propia computadora creando un punto de restauración, 
+mientras que git push sube esos cambios guardados al repositorio remoto en servidor (como GitHub) para respaldarlos 
+y compartirlos con los demás.
